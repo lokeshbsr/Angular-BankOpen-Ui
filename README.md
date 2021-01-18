@@ -3,7 +3,14 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.3.
 
 ## Development server
+Before starting the server.
 
+Please add these into the project.
+Step 1.ng add @angular/material
+Step 2.npm install angular-bootstrap-md --save
+
+After completing the Two Steps: 
+then run the server.
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
