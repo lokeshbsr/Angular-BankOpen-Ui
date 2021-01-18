@@ -1,0 +1,152 @@
+
+
+     <div class="container-1">
+          <div class="scroll container-2">
+          <div class="container-3">
+                    <div class="artBoard">
+                              <div style="display: flex;">
+                                   <div style="width: 856px;">
+                                        <div class="logo"></div>
+                                        <div class="blob-small"></div>
+                                        <div class="willMakeIt"></div>
+                                        <div class="rectangle3"></div>
+                                        <div class="collectImgVideo"></div>
+                                     <div class="accountingdots"></div>
+                                   </div>
+                                   <div style="width:1067.74px">
+                                        <div class="circle"></div>
+                                        <div class="products">Products</div>
+                                        <div class="solutions">Solutions</div>
+                                        <div class="pricing">Pricing</div>
+                                        <div class="login">Login</div>
+                                        <div class="outlineBtn"></div>
+                                        <div class="outLinebtn"></div>
+                                        <div class="gettingStartedCopy">Get Started</div>
+                                        <div class="group6" style="display: flex;">
+                                             <mat-card style="width: 498px;height: -webkit-fill-available;border-radius: 24px;">
+                                                <div class="eligibleCalBorder"></div>
+                                                <div class="eligibleCal">Eligibility Calculator</div>
+                                             <div class="form-group" style="margin-top: 65px;margin-left: 21px;">
+                                                  <div class="col-md-12">
+                                                      <span class="left-title">Monthly Income</span>
+                                                  </div>
+                                                  <div class="col-md-12" style="margin-bottom: -9px;">
+                                                       <span class="result">&#8377; {{updatedMonthlyIncome || "--"}}</span>
+                                                  </div>
+                                                  <mat-slider [min]='min' [max]='max' [(ngModel)]="monthlyIncome" [thumbLabel]="true"
+                                                       (input)="update('income',$event)">
+                                                  </mat-slider>
+                                                  <div class="col-md-12" style="margin-top: -15px;">
+                                                      <span class="bottom-liitle">&#8377; {{minValue || "--"}}</span>
+                                                      <span style="float: right;" class="bottom-liitle">&#8377; {{maxValue || "--"}}</span>
+                                                  </div>
+                                             </div>
+                                             <div class="form-group" style="margin-top: 47px;margin-left: 21px;">
+                                                       <div class="col-md-12">
+                                                           <span class="left-title">Monthly Expense</span>
+                                                       </div>
+                                                       <div class="col-md-12" style="margin-bottom: -9px;">
+                                                            <span class="result">&#8377; {{monthlyExpenseString || "--"}}</span>
+                                                       </div>
+                                                       <mat-slider [min]='min' [max]='max' [(ngModel)]="monthlyExpense" [thumbLabel]="true"
+                                                            (input)="update('expense',$event)" 
+                                                            >
+                                                       </mat-slider>
+                                             </div>
+                                             <div class="form-group" style="margin-top: 37px;margin-left: 21px;">
+                                                  <div class="col-md-12">
+                                                      <span class="left-title">Repayment Tensure</span>
+                                                  </div>
+                                                     <mat-select disableRipple>
+                                                       <mat-option *ngFor="let option of tensureOptions" [value]="option">
+                                                                 {{option.label}}
+                                                       </mat-option>
+                                                    </mat-select>
+                                             </div>
+                                             <div class="form-group" style="margin-top: 37px;margin-left: 21px;">
+                                                  <div class="col-md-12">
+                                                       <span class="left-title">Do you have any existing loans?</span>
+                                                       <mat-slide-toggle style="float: right;"  [color]="color"></mat-slide-toggle>
+                                                  </div>
+                                             </div>
+                                             <div class="form-group" style="margin-top: 98px;margin-left: 21px;">
+                                                  <div class="col-md-12">
+                                                       <span class="left-title">EMI of existing loans?(Optional)</span>
+                                                       <mat-form-field class="example-full-width">
+                                                           <input matInput value='&#8377; '>
+                                                       </mat-form-field>
+                                                  </div>
+                                              </div>
+                                             </mat-card>
+                                            <mat-card class="cardEmi" style="width: 190px;">
+                                                  <div class="form-group" style="margin-top: 98px;margin-left: 21px;">
+                                                       <div class="">
+                                                            <span class="right-title">Loan Amount</span>
+                                                       </div>
+                                                       <div class="" style="margin-bottom: -9px;">
+                                                            <span class="loanResult">&#8377; {{loanAmount || "1,00,000"}}</span>
+                                                       </div>
+                                                  </div>
+                                                  <div class="form-group" style="margin-top: 34px;margin-left: 21px;">
+                                                       <div class="">
+                                                            <span class="right-title">Your Emi Will be</span>
+                                                       </div>
+                                                       <div class="" style="margin-bottom: -9px;">
+                                                            <span class="loanResult">&#8377; {{loanAmount || "15,000"}}</span>
+                                                       </div>
+                                                  </div>
+                                                  <div class="form-group" style="margin-top: 71px;margin-left: 21px;">
+                                                       <div class="getMoney">GET MONEY</div>
+                                                       <div class="moneyOutlineBtn"></div>
+                                                  </div>
+                                            </mat-card> 
+                                        </div>
+                                        <div class="accounting_dots"></div>
+                                   </div>
+                              </div>
+                              <div class="solWave"></div>
+                              <div class="rectangleCopy23"></div>
+                              <div class="getPaidInstantly"></div>
+                              <div class="quickCashDisbursement"></div>
+                              <div class="getTermLoans"></div>
+                              <div class="rectangleCopy19"></div>
+                              <div class="lowInterestRate"></div>
+                              <div class="low-interest-rate"></div>
+                              <div class="gettermsLoanFinance"></div>
+                              <div class="rectanlecopy17"></div>
+                              <div class="securePayments"></div>
+                              <div class="zeroPaperWork"></div>
+                              <div class="getStartedInstant"></div>
+                              <div class="rectangle2"></div>
+                              <div class="freelancerfeature"></div>
+                              <div class="aceYourBusiness"></div>
+                              <div class="manageBanking"></div>
+                              <div class="rectangleCopy25"></div>
+                              <div class="covid"></div>
+                              <div class="loansToFightCovid"></div>
+                              <div class="zeroEmiForFirst3"></div>
+                              <div class="boostYourBusiness"></div>
+                              <div class="line3"></div>
+                              <div class="getYourhandsOn"></div>
+                              <div class="getAnOpenAccount">Get an Open Account</div>
+                              <div class="outlineBtnCopy2"></div>
+                         </div> 
+          </div>
+        </div>
+     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- </mat-card> -->

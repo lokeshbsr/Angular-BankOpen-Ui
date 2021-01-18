@@ -1,0 +1,659 @@
+.artBoard{
+    top: 0px;
+    left: 0px;
+    width: 1920px !important;
+    /* height: 2145px; */
+    background: #FCFCFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    height: -webkit-fill-available;
+}
+
+.logo{
+    margin-top: 27px;
+    margin-left: 120px;
+    width: 123px;
+    height: 123px;
+    background: transparent url('/assets/img/logo.png') 0% 0% no-repeat padding-box; 
+    opacity: 1;
+}
+
+.blob-small{
+/* background: transparent url('img/circle.png') 0% 0% no-repeat padding-box; */
+    /* background: transparent url('D:/dgreen-ui/src/img/circle.png') -146% 6%no-repeat padding-box;
+    opacity: 1;
+    top: 213px;
+    opacity: 1;
+    width: 571px;
+    height: 572px;
+    opacity: 1;
+    background-size: 100% 100%;
+    margin-left: -187px;
+    margin-top: 63px; */
+
+    margin-top: 63px;
+    margin-left: -179px;
+    /* width: 571px; */
+    height: 572px;
+    background: transparent url('/assets/img/circle.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+    /* margin-top: 63px;
+    margin-left: -179px;
+    width: 571px;
+    height: 572px;
+    opacity: 1; */
+    background: transparent url('/assets/img/blob-small.png') 0% 0% no-repeat padding-box;
+}
+
+
+.willMakeIt{
+    margin-top: -513px;
+    margin-left: 189px;
+    width: 407px;
+    height: 98px;
+    background: transparent url('/assets/img/We make it Super Sim.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+
+.rectangle3{
+    margin-top: 8px;
+    margin-left: 192px;
+    width: 236px;
+    height: 8px;
+    background: #000000 0% 0% no-repeat padding-box;
+    border-radius: 13px;
+    opacity: 0.7;
+}
+
+
+.collectImgVideo {
+    margin-top: 82px;
+    margin-left: 136px;
+    width: 652px;
+    height: 365px;
+    background: transparent url('/assets/img/collect_img-video.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.accountingdots{
+    margin-top: -35px;
+    margin-left: 462px;
+    width: 430px;
+    height: 70px;
+    opacity: 0.5;
+    background: transparent url('/assets/img/accounting_dots.png') 0% 0% no-repeat padding-box;
+}
+
+.circle{
+   margin-top: -227.9068603515625px;
+    /*margin-left: 852px;
+    width: 1183px;
+    height: 1192px;
+    transform: matrix(0.12, -0.99, 0.99, 0.12, 0, 0);
+    opacity: 0.5; */
+    /* margin-top: -1100.90686px; */
+    /* margin-left: 852px; */
+    /* width: 1183px; */
+    height: 1192px;
+    /* transform: matrix(0.12, -0.99, 0.99, 0.12, 0, 0); */
+    background: transparent url('/assets/img/circle.png') 0% 0% no-repeat padding-box;
+    opacity: 6.5;
+}
+
+.products{
+    /* margin-top: 68px; */
+    margin-top: -890px;    
+    margin-left: 177.71px;
+    /* margin-left: 1030px; */
+    width: 103px;
+    height: 34px;
+    text-align: left;
+    font: normal normal normal 25px/34px Open Sans;
+    letter-spacing: 0px;
+    color: #222222;
+    opacity: 1;
+}
+
+
+.solutions {
+    margin-top: -35px;
+    /* margin-left: 1183px; */
+    margin-left: 330.74px;
+    width: 108px;
+    height: 34px;
+    text-align: left;
+    font: normal normal normal 25px/34px Open Sans;
+    letter-spacing: 0px;
+    color: #222222;
+    opacity: 1;
+}
+
+.pricing{
+    /* top: 68px; */
+    margin-top: -35px;
+    margin-left: 488.74px;
+    width: 79px;
+    height: 34px;
+    text-align: left;
+    font: normal normal normal 25px/34px Open Sans;
+    letter-spacing: 0px;
+    color: #222222;
+    opacity: 1;
+}
+
+.login{
+    /* top: 76px; -28*/
+    margin-top: -26px;
+    margin-left: 663.85px;
+    width: 46px;
+    height: 19px;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #663399;
+    opacity: 1;
+}
+
+.getMoney{
+    margin-left: -12.15px;
+    height: 19px;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #663399;
+    opacity: 1;
+}
+
+.outlineBtn{
+    /* top: 63px; -31*/
+    margin-top: -32px;
+    margin-left: 627.74px;
+    width: 118px;
+    height: 45px;
+    box-shadow: 0px 0px 20px #00000033;
+    border: 2px solid #663399;
+    border-radius: 24px;
+    opacity: 1;
+}
+
+.moneyOutlineBtn {
+    margin-top: -33px;
+    margin-left: -14.26px;
+    width: 143px;
+    height: 45px;
+    box-shadow: 0px 0px 20px #00000033;
+    border: 2px solid #eae5ef;
+    border-radius: 24px;
+    opacity: 1;
+    background-color: #FCFCFF;
+}
+
+.outLinebtn{
+    /* margin-top: -33px; */
+    margin-top: -45px;
+    margin-left: 769.74px;
+    width: 166px;
+    height: 45px;
+    background: transparent linear-gradient(90deg, #9F62C9 0%, #663399 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 20px #00000033;
+    border-radius: 24px;
+    opacity: 1;
+}
+
+
+.gettingStartedCopy{
+    top: 76px;
+    margin-top: -31.83px;
+    margin-left: 805.83px;
+    width: 94px;
+    height: 19px;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.group6{
+    /* top: 270px; */
+    margin-top: 171px;
+    margin-left: 247.74px;
+    width: 688px;
+    height: 675px;
+    /* background: transparent url('img/Group 6.png') 0% 0% no-repeat padding-box; */
+    opacity: 1;
+}
+
+.eligibleCalBorder{
+    /* width: 166px;
+    height: 45px;
+    background: transparent linear-gradient(90deg, #9F62C9 0%, #663399 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 20px #00000033;
+    border-radius: 24px;
+    opacity: 1; */
+    /* width: -webkit-fill-available; */
+    height: 58px;
+    opacity: 1;
+    margin-top: -16px !important;
+    margin-right: -16px;
+    /* background-color: #e8ebf3; */
+    background-color: #FCFCFF;
+    border-top-right-radius: 21px;
+}
+
+.eligibleCal{
+    margin-left: 7px;
+    /* width: 177px; */
+    height: 19px;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #222222;
+    opacity: 1;
+    margin-top: -47px;
+    font-size: larger;
+    font-size: 26px;
+}
+
+.cardEmi{
+    width: 200px;
+    margin-left: 7px;
+    /* border-radius: 24px; */
+    height: 452px;
+    margin-top: 96px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    /* background-color: #639; */
+    background-color: #7640a7;
+}
+
+
+
+
+/* ******************************************* */
+
+  mat-slider {
+    /* transform: scale(2); */
+    /* width: 300px; */
+    width: 429px;
+    margin-left: 5px;
+  }
+
+  h2 {
+    margin: 0 8px;
+  }
+  
+.left-title{
+    font-size: 17px;
+    font-weight: 300;
+    color: #222222;
+}
+
+.right-title{
+    font-size: 17px;
+    font-weight: 100;
+    color: #FCFCFF;
+}
+
+.bottom-liitle {
+    color:#00000033;
+}
+
+.result{
+    font-size: 27px;
+    font-weight: 460;
+}
+
+.loanResult{
+    font-size: 27px;
+    font-weight: 460;
+    color: #FCFCFF;
+}
+
+mat-select {
+    color: black;
+    border-bottom: 1px solid #666666;
+    font-size: 27px;
+    font-weight: 460;
+    margin-left: 7px;
+    width: 94%;
+}
+
+.example-full-width {
+    width: 100%;
+    font-size: 27px;
+    font-weight: 460;
+    margin-top: -21px;
+  }
+
+.accounting_dots{
+    /* top: 936px; */
+    margin-top: -12px;
+    margin-left: 624px;
+    width: 430px;
+    height: 70px;
+    background: transparent url('/assets/img/accounting_dots.png') 0% 0% no-repeat padding-box;
+    opacity: 0.5;
+}
+/* ******************************************** */
+
+
+
+
+/* ******************************************** */
+.solWave{
+    margin-top: 202.77px;
+    margin-left: 0.0001220703125px;
+    width: 1920px;
+    height: 936px;
+    background: transparent url('/assets/img/sol_wave_bg.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.rectangleCopy23{
+    margin-top: -1006px;
+    margin-left: 191px;
+    width: 391px;
+    height: 253px;
+    background: transparent url('/assets/Rectangle Copy 23.png') 50% 50% no-repeat padding-box;
+    box-shadow: 0px 0px 30px #2321321F;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    opacity: 1;
+}
+
+
+.getPaidInstantly{
+    margin-top: -225px;
+    margin-left: 225px;
+    width: 90px;
+    height: 90px;
+    background: transparent url('/assets/img/Get Paid Instantly.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.quickCashDisbursement{
+    margin-top: 19.52px;
+    margin-left: 225px;
+    width: 323px;
+    height: 19px;
+    background: transparent url('/assets/img/Quick cash disbursem.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.getTermLoans{
+    margin-left: 225px;
+    margin-top:11px;
+    width: 323px;
+    height: 38px;
+    background: transparent url('/assets/img/Get terms loans that.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.rectangleCopy19{
+    margin-top: 92px;
+    margin-left: 191px;
+    width: 391px;
+    height: 276px;
+    background: transparent url('/assets/img/Rectangle Copy 19.png') 50% 50% no-repeat padding-box;
+    box-shadow: 0px 0px 30px #2321321F;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    opacity: 1;
+}
+
+.lowInterestRate{
+    margin-top: -252px;
+    margin-left: 225px;
+    width: 90px;
+    height: 90px;
+    background: transparent url('/assets/img/Low interest rate.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.low-interest-rate{
+    margin-top: 19px;
+    margin-left: 225px;
+    width: 323px;
+    height: 19px;
+    background: transparent url('/assets/img/Low-interest rate.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.gettermsLoanFinance{
+    margin-top: 12px;
+    margin-left: 225px;
+    width: 323px;
+    height: 57px;
+    background: transparent url('/assets/img/Achieve your financi.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.achieveYourFinance{
+    margin-top: 12px;
+    margin-left: 225px;
+    width: 323px;
+    height: 57px;
+    background: transparent url('/assets/img/Achieve your financi.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.rectanlecopy17{
+    margin-top: 92px;
+    margin-left: 191px;
+    width: 391px;
+    height: 276px;
+    background: transparent url('/assets/img/Rectangle Copy 17.png') 50% 50% no-repeat padding-box;
+    box-shadow: 0px 0px 30px #2321321F;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    opacity: 1;
+}
+
+.securePayments{
+    margin-top: -248px;
+    margin-left: 224px;
+    width: 91px;
+    height: 90px;
+    background: transparent url('/assets/img/Secure Payments.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.zeroPaperWork{
+    margin-top: 19.36px;
+    margin-left: 225px;
+    width: 323px;
+    height: 19px;
+    background: transparent url('/assets/img/Zero Paperwork.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.getStartedInstant{
+    margin-top: 12px;
+    margin-left: 225px;
+    width: 323px;
+    height: 38px;
+    background: transparent url('/assets/img/Get started instantl.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+
+.rectangle2{
+    margin-top: -745px;
+    margin-left: 630px;
+    width: 390px;
+    height: 272px;
+    background: transparent url('/assets/img/Rectangle 2.png') 50% 50% no-repeat padding-box;
+    opacity: 1;
+}
+
+.freelancerfeature{
+    margin-top: -247px;
+    margin-left: 664px;
+    width: 90px;
+    height: 90px;
+    background: transparent url('/assets/img/freelancer_feature_icon_6@1.5x.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.aceYourBusiness{
+    margin-top: 19.51px;
+    margin-left: 663px;
+    width: 323px;
+    height: 19px;
+    background: transparent url('/assets/img/Ace your business fi.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.manageBanking{
+    margin-top: 11px;
+    margin-left: 663px;
+    width: 323px;
+    height: 38px;
+    background: transparent url('/assets/img/Manage banking, acco.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.rectangleCopy25{
+    margin-top: 115px;
+    margin-left: 630px;
+    width: 390px;
+    height: 253px;
+    background: transparent url('/assets/img/Rectangle Copy 25.png') 50% 50% no-repeat padding-box;
+    box-shadow: 0px 0px 30px #2321321F;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    opacity: 1;
+}
+
+.covid{
+    margin-top: -224.75px;
+    margin-left: 663px;
+    width: 90px;
+    height: 90px;
+    background: transparent url('/assets/img/Covid.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+
+.loansToFightCovid {
+    margin-top: 20.26px;
+    margin-left: 663px;
+    width: 323px;
+    height: 19px;
+    background: transparent url('/assets/img/LoanstofightCOVID.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.zeroEmiForFirst3{
+    margin-top: 11px;
+    margin-left: 663px;
+    width: 323px;
+    height: 38px;
+    background: transparent url('/assets/img/Zero EMI for first 3.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.boostYourBusiness{
+    margin-top: -419.29px;
+    margin-left: 1158px;
+    width: 490px;
+    height: 98px;
+    background: transparent url('/assets/img/Boost your business.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.line3{
+    margin-top: 52.82px;
+    margin-left: 1158px;
+    width: 120px;
+    height: 0px;
+    background: transparent url('/assets/img/Line 3.png') 0% 0% no-repeat padding-box;
+    border: 4px solid #707070;
+    opacity: 1;
+}
+
+.getYourhandsOn{
+    margin-top: 33.18px;
+    margin-left: 1158px;
+    width: 490px;
+    height: 44px;
+    background: transparent url('/assets/img/Get your hands on a.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+
+.getAnOpenAccount {
+    margin-top: 99.27px;
+    margin-left: 1191px;
+    width: 198px;
+    height: 22px;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #663399;
+    opacity: 1;
+    font-size: 22px;
+    font-family: Montserrat-Medium;
+}
+
+.outlineBtnCopy2{
+    /*margin-top:top: 81px;
+    margin-left: 1158px;
+    width: 279px;
+    height: 58px;
+    box-shadow: 0px 0px 20px #00000033;
+    border: 2px solid #663399;
+    border-radius: 24px;
+    opacity: 1; */
+
+    margin-top: -33px;
+    margin-left: 1154px;
+    width: 279px;
+    height: 58px;
+    box-shadow: 0px 0px 20px #00000033;
+    border: 2px solid #663399;
+    border-radius: 24px;
+    opacity: 1;
+}
+/* ******************** ends here ************************ */
+
+.container-1{
+    display : block;
+    /* position : absolute; */
+    overflow : hidden; 
+    /* inset: 103px 374px 73px; */
+}
+
+.container-2{
+    display: block;
+    /* position: absolute; */
+    width: 100%; height: 100%; 
+    overflow: hidden auto; 
+    user-select: none; 
+    /* padding-right: 17px; */
+}
+
+.container-3 {
+    display: block;
+    position: absolute;
+    /* width: 960px;
+    height: 1072px; */
+}
+
+/* responsive web starts here */
+
+/* @media screen and (min-width: 1366px) {
+    .container-1 {
+      width: 100%;
+      position : unset;
+      inset: 0px 0px 0px;
+    }
+} */
+  
+/* ends here */
+
+
+.scroll {
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  .scroll::-webkit-scrollbar {
+     width: 9px;
+  }
