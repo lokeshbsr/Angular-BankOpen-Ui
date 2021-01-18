@@ -3,6 +3,7 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.3.
 
 ## Development server
+Before starting the server.
 
 Please add these into the project. 
 ### Step 1. ng add @angular/material 
